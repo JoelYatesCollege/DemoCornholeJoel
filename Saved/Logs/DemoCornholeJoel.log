@@ -641,3 +641,468 @@ LogInit: Object subsystem initialized
 [2019.08.28-19.01.33:972][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2019.08.28-19.01.33:972][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000107 seconds (updated 0 objects)
 [2019.08.28-19.02.09:874][762]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.08.28-20.11.58:218][416]Cmd: SELECT NONE
+[2019.08.28-20.14.29:895][122]LogSlate: Took 0.016522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.28-20.14.54:823][ 71]LogSlate: Took 0.019579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.08.28-20.14.55:064][ 71]LogSavePackage: Save=129.49ms
+[2019.08.28-20.14.55:065][ 71]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto17AAB2AED44C7BF312D9C6BB5159058B1.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
+[2019.08.28-20.14.55:067][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap
+[2019.08.28-20.14.55:087][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.228
+[2019.08.28-20.14.55:087][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.228
+[2019.08.28-20.19.27:659][523]LogEditorViewport: Clicking Background
+[2019.08.28-20.19.32:322][ 48]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight2)
+[2019.08.28-20.19.53:436][416]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2019.08.28-20.22.45:147][425]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.08.28-20.22.45:181][425]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.08.28-20.22.45:269][425]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.08.28-20.22.45:285][425]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.08.28-20.22.45:422][425]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.08.28-20.22.45:451][425]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.08.28-20.22.45:530][425]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.08.28-20.22.45:551][425]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.08.28-20.22.45:572][425]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.08.28-20.22.45:618][425]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.08.28-20.22.45:646][425]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.08.28-20.22.45:742][425]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2019.08.28-20.22.45:833][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.45:848][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.45:864][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:096][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:153][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:171][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:242][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:259][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:322][425]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.08.28-20.22.46:350][425]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.08.28-20.22.46:405][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:427][425]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.08.28-20.22.46:487][425]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.08.28-20.22.46:509][425]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.08.28-20.22.46:628][425]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.08.28-20.24.28:727][188]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-20.24.28:777][188]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2019.08.28-20.24.54:353][625]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2019.08.28-20.25.05:583][767]Cmd: DELETE
+[2019.08.28-20.25.05:583][767]Cmd: ACTOR DELETE
+[2019.08.28-20.25.05:606][767]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.25.05:716][767]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2019.08.28-20.25.06:595][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GenericHMD)
+[2019.08.28-20.25.17:645][ 34]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight2)
+[2019.08.28-20.25.23:414][587]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2019.08.28-20.25.25:097][756]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-20.25.30:208][252]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2019.08.28-20.25.31:062][331]LogEditorViewport: Clicking Background
+[2019.08.28-20.25.42:291][563]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-20.25.54:135][840]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.08.28-20.25.57:932][894]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-20.26.31:126][373]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-20.27.01:803][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:803][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:804][553]LogEditorActor: Deleted Actor: Brush
+[2019.08.28-20.27.01:816][553]LogEditorActor: Deleted 10 Actors (0.013 secs)
+[2019.08.28-20.27.30:181][546]LogEditorActor: Deleted Actor: SkyLight
+[2019.08.28-20.27.30:192][546]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2019.08.28-20.27.36:011][207]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.08.28-20.27.36:063][207]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.08.28-20.27.36:073][207]LogEditorActor: Deleted 2 Actors (0.063 secs)
+[2019.08.28-20.27.56:685][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:685][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:686][537]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.08.28-20.27.56:695][537]LogEditorActor: Deleted 9 Actors (0.010 secs)
+[2019.08.28-20.28.11:459][242]LogEditorActor: Deleted Actor: SpotLight
+[2019.08.28-20.28.11:470][242]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2019.08.28-20.28.12:383][340]LogEditorActor: Deleted Actor: SpotLight
+[2019.08.28-20.28.12:395][340]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2019.08.28-20.28.19:404][ 49]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.28.19:413][ 49]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2019.08.28-20.28.20:277][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.28.20:288][140]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2019.08.28-20.28.27:652][903]Cmd: DELETE
+[2019.08.28-20.28.27:652][903]Cmd: ACTOR DELETE
+[2019.08.28-20.28.27:652][903]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.08.28-20.28.27:662][903]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2019.08.28-20.28.33:239][524]Cmd: DELETE
+[2019.08.28-20.28.33:239][524]Cmd: ACTOR DELETE
+[2019.08.28-20.28.33:240][524]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2019.08.28-20.28.33:251][524]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2019.08.28-20.28.38:262][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.28.38:273][ 36]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2019.08.28-20.28.56:557][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.28.56:566][964]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2019.08.28-20.29.04:045][838]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.29.04:060][838]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2019.08.28-20.29.05:897][ 37]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.28-20.29.05:907][ 37]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2019.08.28-20.29.10:644][540]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog)
+[2019.08.28-20.29.14:148][864]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-20.29.47:204][431]LogMaterial: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2019.08.28-20.29.47:254][431]LogMaterial: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2019.08.28-20.29.58:723][309]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-20.29.58:939][309]LogSavePackage: Save=243.55ms
+[2019.08.28-20.29.58:940][309]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto2FF5FF1B54833379BF9AA33B19444E5C8.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap'
+[2019.08.28-20.29.58:942][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap
+[2019.08.28-20.29.58:945][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.272
+[2019.08.28-20.29.58:946][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.272
+[2019.08.28-20.40.08:993][934]LogSavePackage: Save=189.53ms
+[2019.08.28-20.40.08:994][934]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto31847B6A642A4562C5118B68499B2530E.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto3.umap'
+[2019.08.28-20.40.09:005][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto3.umap
+[2019.08.28-20.40.09:010][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.233
+[2019.08.28-20.40.09:010][934]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2019.08.28-20.56.15:045][420]LogEditorViewport: Clicking Background
+[2019.08.28-21.26.03:863][350]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2019.08.28-21.26.07:891][826]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-21.26.37:471][993]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Materials/Grass/GrassTileJoel.png)
+[2019.08.28-21.26.37:560][993]LogTexture: Display: Building textures: GrassTileJoel (BGRA8, 607X607)
+[2019.08.28-21.26.40:730][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.009
+[2019.08.28-21.26.40:744][319]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/GrassTileJoel] ([1] browsable assets)...
+[2019.08.28-21.26.40:751][319]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VirtualRealityBP/Blueprints/GrassTileJoel.GrassTileJoel]
+[2019.08.28-21.26.40:751][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/GrassTileJoel]
+[2019.08.28-21.26.40:773][319]LogSavePackage: Save=17.91ms
+[2019.08.28-21.26.40:773][319]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/GrassTileJoel_Auto42F1050EF422924B7D78E9CA804918436.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/GrassTileJoel_Auto4.uasset'
+[2019.08.28-21.26.40:774][319]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/GrassTileJoel_Auto4.uasset
+[2019.08.28-21.26.40:774][319]LogFileHelpers: Auto-saving content packages took 0.043
+[2019.08.28-21.26.57:885][264]LogSavePackage: Save=74.97ms
+[2019.08.28-21.26.57:885][264]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_grassE50CD1EA49C37D82AF9E95B6DABD847A.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Blueprints/M_grass.uasset'
+[2019.08.28-21.26.57:889][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Blueprints/M_grass.uasset
+[2019.08.28-21.27.18:268][549]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.08.28-21.27.18:274][549]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2019.08.28-21.27.18:274][549]LogMaterial: Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2019.08.28-21.27.27:076][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualReality/Materials/M_grass" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass.uasset" SILENT=true
+[2019.08.28-21.27.27:110][568]LogSavePackage: Save=31.49ms
+[2019.08.28-21.27.27:110][568]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_grass6F9373604188AD6B56465382EE061447.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass.uasset'
+[2019.08.28-21.27.27:115][568]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass.uasset
+[2019.08.28-21.28.46:678][239]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.28.47:118][246]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0015 seconds. Added 1 classes and 0 folders.
+[2019.08.28-21.28.47:154][246]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.28.47:653][246]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.28.47:701][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.28.47:745][246]LogSlate: Took 0.012401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.28-21.28.50:524][300]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.28.50:524][300]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.28.50:524][300]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.28.50:524][300]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.28.54:743][645]LogMaterialEditor: Saving and Compiling material M_grass_Mat
+[2019.08.28-21.28.54:794][645]LogSavePackage: Save=18.06ms
+[2019.08.28-21.28.54:794][645]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_grass_Mat0552621947F99741EB5160A6D84233F4.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset'
+[2019.08.28-21.28.54:798][645]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset
+[2019.08.28-21.29.06:763][544]LogMaterialEditor: Saving and Compiling material M_grass_Mat
+[2019.08.28-21.29.06:799][544]LogSavePackage: Save=6.69ms
+[2019.08.28-21.29.06:799][544]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_grass_Mat458784674D559631C5C8C98C3C9B4B22.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset'
+[2019.08.28-21.29.06:801][544]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset
+[2019.08.28-21.29.14:664][299]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.30.02:340][524]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Materials/Gravel/GravelTileJoel.png)
+[2019.08.28-21.30.02:582][524]LogTexture: Display: Building textures: GravelTileJoel (AutoDXT, 2000X2000)
+[2019.08.28-21.30.17:935][964]LogMaterial: Missing cached shader map for material M_gravel, compiling. 
+[2019.08.28-21.30.19:637][ 80]LogMaterial: Missing cached shader map for material M_gravel, compiling. 
+[2019.08.28-21.30.19:746][ 80]LogMaterial: Missing cached shader map for material M_gravel, compiling. 
+[2019.08.28-21.30.19:782][ 80]LogMaterial: Missing cached shader map for material M_gravel, compiling. 
+[2019.08.28-21.30.19:851][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.30.21:868][171]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.30.21:868][171]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.30.21:868][171]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.30.21:868][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.30.23:867][315]LogMaterialEditor: Saving and Compiling material M_gravel
+[2019.08.28-21.30.23:900][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualReality/Materials/M_gravel" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_gravel.uasset" SILENT=true
+[2019.08.28-21.30.24:021][315]LogSavePackage: Save=117.85ms
+[2019.08.28-21.30.24:021][315]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_gravel1BE2D9454795CFD5C801C88237F1DBF3.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_gravel.uasset'
+[2019.08.28-21.30.24:025][315]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_gravel.uasset
+[2019.08.28-21.31.22:425][817]Cmd: TRANSACTION UNDO
+[2019.08.28-21.31.22:425][817]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.31.22:455][817]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.31.23:160][889]Cmd: TRANSACTION UNDO
+[2019.08.28-21.31.23:161][889]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.32.30:009][884]Cmd: TRANSACTION UNDO
+[2019.08.28-21.32.30:009][884]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.32.30:018][884]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.32.30:393][919]Cmd: TRANSACTION UNDO
+[2019.08.28-21.32.30:393][919]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.32.53:166][555]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.33.12:858][836]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.12:858][836]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.12:867][836]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.14:001][963]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.14:001][963]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.14:009][963]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.44:855][637]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.44:855][637]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.44:867][637]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.45:033][649]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:034][649]LogEditorTransaction: Undo Edit Brush Size
+[2019.08.28-21.33.45:220][662]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:220][662]LogEditorTransaction: Undo Edit Brush Size
+[2019.08.28-21.33.45:399][676]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:399][676]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.45:410][676]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.45:577][689]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:577][689]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.45:588][689]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.45:769][705]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:769][705]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.45:776][705]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.45:948][719]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.45:948][719]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.45:959][719]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.46:125][732]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.46:125][732]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.46:136][732]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.46:311][745]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.46:311][745]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.46:501][761]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.46:502][761]LogEditorTransaction: Undo Edit Brush Size
+[2019.08.28-21.33.46:687][776]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.46:687][776]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.46:698][776]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.46:875][790]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.46:875][790]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.46:888][790]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.47:311][834]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.47:311][834]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2019.08.28-21.33.47:735][878]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.47:735][878]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.33.47:748][878]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.33.48:171][922]Cmd: TRANSACTION UNDO
+[2019.08.28-21.33.48:171][922]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.34.16:159][175]Cmd: TRANSACTION UNDO
+[2019.08.28-21.34.16:159][175]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.34.40:028][982]Cmd: TRANSACTION UNDO
+[2019.08.28-21.34.40:029][982]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.08.28-21.36.47:652][710]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.36.47:757][710]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.36.47:776][710]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.36.47:823][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.36.49:704][809]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.36.49:704][809]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.36.49:704][809]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.36.49:704][809]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.37.20:186][959]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.37.21:929][ 56]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.37.21:929][ 56]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.37.21:929][ 56]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.37.21:929][ 56]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.37.37:484][677]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.37.38:763][756]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.37.38:763][756]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.37.38:763][756]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.37.38:763][756]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.37.44:983][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2019.08.28-21.37.45:567][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.37.45:571][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2019.08.28-21.37.50:764][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2019.08.28-21.37.54:040][298]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.37.56:358][498]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.37.57:525][575]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.37.57:525][575]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.37.57:525][575]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.37.57:525][575]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.37.58:485][679]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.37.59:651][760]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.37.59:651][760]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.37.59:651][760]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.37.59:651][760]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.38.03:504][148]LogMaterialEditor: Saving and Compiling material M_grass_Mat
+[2019.08.28-21.38.06:810][148]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.38.06:879][148]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.38.06:912][148]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.38.06:944][148]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.38.07:090][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_grass_Mat, compiling. 
+[2019.08.28-21.38.07:906][148]TextureStreamingBuild: Display: Compiling optional shaders took 0.843 seconds.
+[2019.08.28-21.38.10:436][148]LogSlate: Took 0.011111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.28-21.38.10:503][148]LogSavePackage: Save=24.77ms
+[2019.08.28-21.38.10:503][148]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M_grass_MatAE90BDED4ED32999ED9C0DB6E2CAE158.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset'
+[2019.08.28-21.38.10:509][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M_grass_Mat.uasset
+[2019.08.28-21.38.10:519][148]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.38.10:519][148]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.38.10:519][148]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.28-21.38.10:519][148]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.41.13:761][743]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.41.14:057][776]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.41.14:371][811]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.42.04:965][ 10]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.42.22:304][892]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.43.58:714][845]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.43.58:979][845]LogSavePackage: Save=291.71ms
+[2019.08.28-21.43.58:979][845]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto5E901C6034B20AC25548339BA5091316D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto5.umap'
+[2019.08.28-21.43.58:981][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto5.umap
+[2019.08.28-21.43.58:984][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.319
+[2019.08.28-21.43.58:984][845]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.319
+[2019.08.28-21.43.58:987][845]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Materials/GravelTileJoel] ([1] browsable assets)...
+[2019.08.28-21.43.58:995][845]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VirtualReality/Materials/GravelTileJoel.GravelTileJoel]
+[2019.08.28-21.43.58:995][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Materials/GravelTileJoel]
+[2019.08.28-21.43.59:023][845]LogSavePackage: Save=25.09ms
+[2019.08.28-21.43.59:023][845]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/GravelTileJoel_Auto502507CAA44EEF5E6FF9856A021F07DCA.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualReality/Materials/GravelTileJoel_Auto5.uasset'
+[2019.08.28-21.43.59:026][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualReality/Materials/GravelTileJoel_Auto5.uasset
+[2019.08.28-21.43.59:026][845]LogFileHelpers: Auto-saving content packages took 0.041
+[2019.08.28-21.44.58:683][540]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.08.28-21.47.16:737][742]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-21.47.24:648][550]LogEditorViewport: Clicking on Actor (context menu): ExponentialHeightFog (ExponentialHeightFog)
+[2019.08.28-21.47.26:144][714]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-21.47.27:479][848]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog)
+[2019.08.28-21.49.44:686][267]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.49.45:001][300]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.49.52:903][206]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.08.28-21.52.33:502][951]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-21.52.34:058][  5]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.08.28-21.54.06:383][581]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.06:383][581]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.08.28-21.54.06:396][581]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.06:455][581]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.06:601][589]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.06:601][589]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.08.28-21.54.06:619][589]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.06:676][589]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.06:829][593]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.06:829][593]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.08.28-21.54.06:847][593]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.06:912][593]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.08:785][745]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.54.08:786][745]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.54.08:786][745]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.54.08:786][745]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.54.09:178][792]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.09:178][792]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.08.28-21.54.09:221][792]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.10:414][884]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.54.10:414][884]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.54.10:414][884]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.54.10:414][884]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.54.31:771][389]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.31:771][389]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.31:778][389]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.31:817][389]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.32:371][426]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.32:371][426]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.32:388][426]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.32:444][426]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.32:953][464]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.32:953][464]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.32:967][464]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.33:014][464]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.33:370][490]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.33:370][490]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.33:386][490]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.33:427][490]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.33:560][495]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.33:560][495]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.33:578][495]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.33:634][495]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.33:765][503]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.33:765][503]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.33:782][503]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.33:851][503]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.34:072][515]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.34:072][515]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.34:092][515]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.34:140][515]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.34:348][527]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.34:349][527]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.34:369][527]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.08.28-21.54.34:423][527]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.34:866][556]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.34:866][556]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.08.28-21.54.34:924][556]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.35:434][591]Cmd: TRANSACTION UNDO
+[2019.08.28-21.54.35:434][591]LogEditorTransaction: Undo Clicking on Actors
+[2019.08.28-21.54.35:479][591]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
+[2019.08.28-21.54.36:969][704]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.54.36:969][704]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.54.36:969][704]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.54.36:969][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.55.19:682][765]LogSavePackage: Save=267.00ms
+[2019.08.28-21.55.19:682][765]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto6440CE1CC449CEF6A0FC52C9F94D45762.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto6.umap'
+[2019.08.28-21.55.19:685][765]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto6.umap
+[2019.08.28-21.55.19:688][765]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.304
+[2019.08.28-21.55.19:688][765]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.304
+[2019.08.28-21.57.13:347][951]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.17:379][330]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.17:439][330]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.17:454][330]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.17:497][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.57.18:856][446]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.57.18:856][446]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.57.18:856][446]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.57.18:856][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.57.34:818][338]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.36:248][487]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.57.36:248][487]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.57.36:248][487]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.57.36:248][487]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.57.38:541][742]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.39:757][865]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.57.39:757][865]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.57.39:757][865]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.57.39:757][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.57.45:462][548]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.57.46:719][665]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.57.46:719][665]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.57.46:719][665]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.57.46:719][665]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.58.00:233][281]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.58.01:412][398]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.58.01:412][398]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.58.01:412][398]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.58.01:412][398]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.58.06:570][ 15]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.58.07:698][133]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.58.07:698][133]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.58.07:698][133]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.58.07:698][133]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.58.34:707][353]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.58.34:719][353]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.08.28-21.58.36:758][555]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.58.36:758][555]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.58.36:758][555]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.58.36:758][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.58.44:417][456]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.58.44:432][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.08.28-21.58.45:694][581]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.58.45:694][581]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.58.45:694][581]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.58.45:694][581]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.59.12:633][810]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.12:655][810]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.28-21.59.14:351][979]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.59.14:351][979]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.59.14:351][979]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.59.14:351][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.59.16:907][284]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.16:926][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.08.28-21.59.18:054][400]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.08.28-21.59.18:054][400]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.08.28-21.59.18:054][400]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.59.18:054][400]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.28-21.59.24:662][191]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.25:820][306]MaterialEditorStats: Base pass shader: 124 instructions
+[2019.08.28-21.59.25:820][306]MaterialEditorStats: Vertex shader: 85 instructions
+[2019.08.28-21.59.25:820][306]MaterialEditorStats: Texture samplers: 1/16
+[2019.08.28-21.59.28:550][633]LogMaterialEditor: Saving and Compiling material M-Grass_landscape_mat
+[2019.08.28-21.59.29:268][633]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.29:318][633]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.29:353][633]LogMaterial: Missing cached shader map for material M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.29:414][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M-Grass_landscape_mat, compiling. 
+[2019.08.28-21.59.30:256][633]TextureStreamingBuild: Display: Compiling optional shaders took 0.852 seconds.
+[2019.08.28-21.59.32:643][633]LogSavePackage: Save=16.54ms
+[2019.08.28-21.59.32:643][633]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/M-Grass_landscape_matD25BDFF043790CAB181ECE9CEA3FEBF0.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M-Grass_landscape_mat.uasset'
+[2019.08.28-21.59.32:647][633]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/M-Grass_landscape_mat.uasset
+[2019.08.28-21.59.32:657][633]MaterialEditorStats: Base pass shader: 124 instructions
+[2019.08.28-21.59.32:657][633]MaterialEditorStats: Vertex shader: 85 instructions
+[2019.08.28-21.59.32:657][633]MaterialEditorStats: Texture samplers: 2/16
+[2019.08.28-21.59.40:325][ 64]LogSavePackage: Save=209.40ms
+[2019.08.28-21.59.40:325][ 64]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMapC0B99E3B4BE5D85D5CB55695D830DA55.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2019.08.28-21.59.40:332][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2019.08.28-21.59.40:370][ 64]LogFileHelpers: Saving map 'StartupMap' took 2.404
+[2019.08.28-21.59.40:786][ 64]LogSavePackage: Save=399.33ms
+[2019.08.28-21.59.40:786][ 64]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/GravelTileJoelB9896D584D4A143C2CBEE3B919DA4E86.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/GravelTileJoel.uasset'
+[2019.08.28-21.59.40:795][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualReality/Materials/GravelTileJoel.uasset
