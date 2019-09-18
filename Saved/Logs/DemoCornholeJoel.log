@@ -1,4 +1,4 @@
-﻿Log file open, 09/16/19 15:08:28
+﻿Log file open, 09/18/19 15:17:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DemoCornholeJoel
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2031310838) SRandInit(-2031310838).
+LogInit: Display: RandInit(1763081820) SRandInit(1763081820).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.241306
+LogStats: Stats thread started at 0.319548
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,616 +108,931 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.09.16-19.08.30:492][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.16-19.08.30:492][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.16-19.08.30:509][  0]LogInit: Computer: MT330D07
-[2019.09.16-19.08.30:509][  0]LogInit: User: yates290
-[2019.09.16-19.08.30:509][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.09.16-19.08.30:509][  0]LogInit: High frequency timer resolution =3.410077 MHz
-[2019.09.16-19.08.30:509][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.09.16-19.08.30:509][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.16-19.08.30:509][  0]LogMemory: Process Physical Memory: 285.92 MB used, 285.92 MB peak
-[2019.09.16-19.08.30:509][  0]LogMemory: Process Virtual Memory: 286.44 MB used, 286.44 MB peak
-[2019.09.16-19.08.30:509][  0]LogMemory: Physical Memory: 9401.55 MB used,  6904.84 MB free, 16306.39 MB total
-[2019.09.16-19.08.30:509][  0]LogMemory: Virtual Memory: 717.24 MB used,  6904.84 MB free, 134217728.00 MB total
-[2019.09.16-19.08.31:133][  0]LogInit: Using OS detected language (en-US).
-[2019.09.16-19.08.31:133][  0]LogInit: Using OS detected locale (en-US).
-[2019.09.16-19.08.31:149][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.16-19.08.32:400][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.16-19.08.32:560][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.09.16-19.08.32:560][  0]LogD3D11RHI:       8079/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.09.16-19.08.32:563][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.16-19.08.32:563][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.16-19.08.32:563][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.16-19.08.32:591][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.16-19.08.32:591][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.16-19.08.32:591][  0]LogWindows: EnumDisplayDevices:
-[2019.09.16-19.08.32:591][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.09.16-19.08.32:592][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.09.16-19.08.32:592][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.09.16-19.08.32:593][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.09.16-19.08.32:593][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.09.16-19.08.32:593][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.09.16-19.08.32:593][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
-[2019.09.16-19.08.32:593][  0]LogD3D11RHI:      Driver Date: 8-16-2019
-[2019.09.16-19.08.32:593][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2019.09.16-19.08.32:702][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.16-19.08.32:718][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.09.16-19.08.32:763][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Intermediate/Shaders/WorkingDirectory/262232/).
-[2019.09.16-19.08.32:763][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yates.290/AppData/Local/Temp/42/UnrealShaderWorkingDir/CAB806E749A66BDC16330EB93A0FBB61/'.
-[2019.09.16-19.08.32:763][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.16-19.08.34:745][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.09.16-19.08.34:903][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.09.16-19.08.35:060][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.09.16-19.08.35:220][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.09.16-19.08.35:381][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.09.16-19.08.35:541][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.09.16-19.08.35:703][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.09.16-19.08.35:862][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.09.16-19.08.36:027][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.09.16-19.08.36:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.16-19.08.36:354][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.09.16-19.08.36:511][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.09.16-19.08.36:670][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.09.16-19.08.36:831][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.09.16-19.08.36:993][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.09.16-19.08.37:312][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.09.16-19.08.37:312][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.09.16-19.08.37:457][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.09.16-19.08.37:733][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.09.16-19.08.37:823][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.09.16-19.08.37:980][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.09.16-19.08.38:139][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.09.16-19.08.38:297][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.09.16-19.08.38:450][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.09.16-19.08.38:450][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.16-19.08.40:206][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.16-19.08.40:383][  0]LogDerivedDataCache: Loaded boot cache 0.18s 84MB C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.09.16-19.08.40:383][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2019.09.16-19.08.40:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.16-19.08.40:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.16-19.08.40:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.16-19.08.40:384][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.16-19.08.40:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.16-19.08.40:421][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yates.290/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.16-19.08.40:433][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.16-19.08.40:433][  0]LogSlate: Using Freetype 2.6.0
-[2019.09.16-19.08.40:438][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.16-19.08.40:438][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.16-19.08.40:836][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
-[2019.09.16-19.08.41:070][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.16-19.08.41:338][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2019.09.16-19.08.42:284][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.09.16-19.08.42:440][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.09.16-19.08.42:440][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.16-19.08.42:440][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.09.16-19.08.42:440][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.09.16-19.08.42:440][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.09.16-19.08.43:067][  0]LogNetVersion: DemoCornholeJoel , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1296306758)
-[2019.09.16-19.08.43:530][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.075902 seconds
-[2019.09.16-19.08.43:537][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2019.09.16-19.08.43:537][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2019.09.16-19.08.43:537][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.16-19.08.43:770][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.09.16-19.08.50:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.16-19.08.50:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.16-19.08.52:789][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.09.16-19.08.54:054][  0]SourceControl: Source control is disabled
-[2019.09.16-19.08.54:054][  0]SourceControl: Source control is disabled
-[2019.09.16-19.08.54:234][  0]SourceControl: Source control is disabled
-[2019.09.16-19.08.54:414][  0]SourceControl: Source control is disabled
-[2019.09.16-19.08.56:505][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.16-19.08.57:371][  0]LogOcInput: OculusInput pre-init called
-[2019.09.16-19.08.58:189][  0]LogEngine: Initializing Engine...
-[2019.09.16-19.08.58:191][  0]LogHMD: Oculus plugin initialized. Version: 4.17.2-3658906+++UE4+Release-4.17, OVRPlugin: 1.15.0
-[2019.09.16-19.08.58:207][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
-[2019.09.16-19.08.58:803][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
-[2019.09.16-19.08.59:086][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
-[2019.09.16-19.09.00:128][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
-[2019.09.16-19.09.01:294][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
-[2019.09.16-19.09.01:640][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
-[2019.09.16-19.09.01:834][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
-[2019.09.16-19.09.01:883][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
-[2019.09.16-19.09.01:931][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
-[2019.09.16-19.09.01:971][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
-[2019.09.16-19.09.02:014][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
-[2019.09.16-19.09.02:060][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
-[2019.09.16-19.09.02:083][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
-[2019.09.16-19.09.02:143][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
-[2019.09.16-19.09.02:217][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
-[2019.09.16-19.09.02:240][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
-[2019.09.16-19.09.02:272][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
-[2019.09.16-19.09.02:305][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
-[2019.09.16-19.09.02:338][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
-[2019.09.16-19.09.02:488][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
-[2019.09.16-19.09.02:523][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
-[2019.09.16-19.09.02:568][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
-[2019.09.16-19.09.02:606][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
-[2019.09.16-19.09.02:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.09.16-19.09.02:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.09.16-19.09.03:457][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.16-19.09.03:499][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.09.16-19.09.03:572][  0]LogInit: FAudioDevice initialized.
-[2019.09.16-19.09.03:790][  0]LogDerivedDataCache: Saved boot cache 0.22s 87MB C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.09.16-19.09.03:815][  0]LogInit: Texture streaming: Enabled
-[2019.09.16-19.09.04:436][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.16-19.09.05:546][  0]LogInit: Transaction tracking system initialized
-[2019.09.16-19.09.07:155][  0]BlueprintLog: New page: Editor Load
-[2019.09.16-19.09.11:738][  0]LocalizationService: Localization service is disabled
-[2019.09.16-19.09.15:198][  0]LogConsoleResponse: Display: 
-[2019.09.16-19.09.15:338][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
-[2019.09.16-19.09.15:386][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
-[2019.09.16-19.09.15:425][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
-[2019.09.16-19.09.15:466][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
-[2019.09.16-19.09.15:500][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
-[2019.09.16-19.09.15:550][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
-[2019.09.16-19.09.15:606][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2019.09.16-19.09.15:646][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
-[2019.09.16-19.09.15:685][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
-[2019.09.16-19.09.15:723][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
-[2019.09.16-19.09.15:761][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
-[2019.09.16-19.09.15:797][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
-[2019.09.16-19.09.15:832][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
-[2019.09.16-19.09.15:971][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
-[2019.09.16-19.09.16:104][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
-[2019.09.16-19.09.16:203][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
-[2019.09.16-19.09.16:253][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.16-19.09.16:253][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.16-19.09.16:253][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.09.16-19.09.16:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/' took 0.03s
-[2019.09.16-19.09.21:571][  0]SourceControl: Source control is disabled
-[2019.09.16-19.09.21:571][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.16-19.09.21:572][  0]LightingResults: New page: Lighting Build
-[2019.09.16-19.09.21:796][  0]MapCheck: New page: Map Check
-[2019.09.16-19.09.21:797][  0]LightingResults: New page: Lighting Build
-[2019.09.16-19.09.22:996][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
-[2019.09.16-19.09.22:996][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Bench/ParkBenchJoel.uasset.
-[2019.09.16-19.09.22:996][  0]LoadErrors: Error: /Game/Cornhole/Bench/ParkBenchJoel : Can't find file for asset. /Game/Cornhole/Bench/None
-[2019.09.16-19.09.23:010][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
-[2019.09.16-19.09.23:010][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Bench/ParkBenchJoel.uasset.
-[2019.09.16-19.09.23:010][  0]LoadErrors: Error: /Game/Cornhole/Bench/ParkBenchJoel : Can't find file for asset. /Game/Cornhole/Bench/None
-[2019.09.16-19.09.23:147][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
-[2019.09.16-19.09.23:147][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
-[2019.09.16-19.09.23:147][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading NULL.
-[2019.09.16-19.09.23:147][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
-[2019.09.16-19.09.23:148][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
-[2019.09.16-19.09.23:148][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
-[2019.09.16-19.09.23:148][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading NULL.
-[2019.09.16-19.09.23:148][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
-[2019.09.16-19.09.23:215][  0]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
-[2019.09.16-19.09.23:250][  0]LogMaterial: Missing cached shader map for material M_grass_Mat, compiling. 
-[2019.09.16-19.09.23:323][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2019.09.16-19.09.23:642][  0]LogMaterial: Missing cached shader map for material Bark, compiling. 
-[2019.09.16-19.09.23:689][  0]LogMaterial: Missing cached shader map for material None_leaves_png, compiling. 
-[2019.09.16-19.09.23:768][  0]LogMaterial: Missing cached shader map for material BushMaterial, compiling. 
-[2019.09.16-19.09.23:922][  0]LogMaterial: Missing cached shader map for material None_rebar_metal2_brian_jpg, compiling. 
-[2019.09.16-19.09.24:110][  0]LogAIModule: Creating AISystem for world StartupMap
-[2019.09.16-19.09.24:243][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.16-19.09.24:312][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.16-19.09.24:556][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 243.339ms to complete.
-[2019.09.16-19.09.24:556][  0]LogFileHelpers: Loading map 'StartupMap' took 2.985
-[2019.09.16-19.09.24:912][  0]LogCollectionManager: Loaded 0 collections in 0.009356 seconds
-[2019.09.16-19.09.25:171][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/Saved/Collections/' took 0.01s
-[2019.09.16-19.09.25:171][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/Developers/yates290/Collections/' took 0.01s
-[2019.09.16-19.09.25:171][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/Collections/' took 0.01s
-[2019.09.16-19.09.25:171][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.09.16-19.09.25:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0237 seconds. Added 2386 classes and 500 folders.
-[2019.09.16-19.09.25:529][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2019.09.16-19.09.25:707][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2019.09.16-19.09.25:922][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2019.09.16-19.09.25:997][  0]LogSlate: Took 0.004559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.16-19.09.26:005][  0]LogSlate: Took 0.004828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.16-19.09.26:016][  0]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.16-19.09.26:116][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
-[2019.09.16-19.09.26:262][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:1).
-[2019.09.16-19.09.26:989][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2019.09.16-19.09.26:990][  0]LogLoad: (Engine Initialization) Total time: 60.90 seconds
-[2019.09.16-19.09.26:990][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.16-19.09.26:990][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2019.09.16-19.09.27:346][  0]LogOcInput: OculusInput is initialized
-[2019.09.16-19.09.27:366][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.16-19.09.28:015][  2]LogAssetRegistry: Asset discovery search completed in 47.2006 seconds
-[2019.09.16-19.09.28:019][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.09.16-19.09.28:019][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
-[2019.09.16-19.10.00:692][100]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.16-19.13.42:670][134]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.16-19.13.43:078][134]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
-[2019.09.16-19.13.43:159][134]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2019.09.16-19.13.43:220][134]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.16-19.16.34:108][269]LogTexture: Display: Building textures: WoodPlanks01 (AutoDXT, 1024X1024)
-[2019.09.16-19.16.34:312][269]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2019.09.16-19.17.01:723][436]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.17.09:708][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
-[2019.09.16-19.17.10:193][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
-[2019.09.16-19.17.30:614][444]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
-[2019.09.16-19.18.14:861][986]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2019.09.16-19.18.18:666][406]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2019.09.16-19.19.30:674][550]LogSavePackage: Save=337.26ms
-[2019.09.16-19.19.30:674][550]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto1AD78D3BF41DB8BA5F3B288A62B990275.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
-[2019.09.16-19.19.30:677][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap
-[2019.09.16-19.19.30:681][550]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.378
-[2019.09.16-19.19.30:681][550]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.378
-[2019.09.16-19.19.31:849][656]LogMaterial: Missing cached shader map for material metal, compiling. 
-[2019.09.16-19.19.35:133][880]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.16-19.19.38:883][916]LogMaterial: Missing cached shader map for material light, compiling. 
-[2019.09.16-19.20.02:754][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/light'
-[2019.09.16-19.20.02:755][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/light' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Lamppost/lamppost_Noah2.uasset.
-[2019.09.16-19.20.02:755][162]LoadErrors: Error: /Game/Cornhole/Lamppost/lamppost_Noah2 : Can't find file for asset. /Game/Cornhole/Lamppost/light
-[2019.09.16-19.20.02:755][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/metal'
-[2019.09.16-19.20.02:755][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/metal' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Lamppost/lamppost_Noah2.uasset.
-[2019.09.16-19.20.02:755][162]LoadErrors: Error: /Game/Cornhole/Lamppost/lamppost_Noah2 : Can't find file for asset. /Game/Cornhole/Lamppost/metal
-[2019.09.16-19.20.02:755][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/light'
-[2019.09.16-19.20.02:755][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/light' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Lamppost/lamppost_Noah2.uasset.
-[2019.09.16-19.20.02:756][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/metal'
-[2019.09.16-19.20.02:756][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/metal' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/Cornhole/Lamppost/lamppost_Noah2.uasset.
-[2019.09.16-19.20.02:757][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/metal'
-[2019.09.16-19.20.02:757][162]LoadErrors: Failed to load /Game/Cornhole/Lamppost/metal.metal Referenced by lamppost_Noah2
-[2019.09.16-19.20.02:757][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/metal' while loading NULL.
-[2019.09.16-19.20.02:757][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/light'
-[2019.09.16-19.20.02:757][162]LoadErrors: Failed to load /Game/Cornhole/Lamppost/light.light Referenced by lamppost_Noah2
-[2019.09.16-19.20.02:757][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/light' while loading NULL.
-[2019.09.16-19.20.02:757][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/metal'
-[2019.09.16-19.20.02:758][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/metal' while loading NULL.
-[2019.09.16-19.20.02:758][162]LogLinker: Warning: Can't find file '/Game/Cornhole/Lamppost/light'
-[2019.09.16-19.20.02:758][162]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Lamppost/light' while loading NULL.
-[2019.09.16-19.20.02:758][162]LogStaticMesh: Building static mesh lamppost_Noah2...
-[2019.09.16-19.20.02:801][162]LogStaticMesh: Built static mesh [0.04s] /Game/Cornhole/Lamppost/lamppost_Noah2.lamppost_Noah2
-[2019.09.16-19.20.02:888][162]LogActorFactory: Actor Factory created lamppost_Noah2
-[2019.09.16-19.20.05:787][460]LogActorFactory: Actor Factory created lamppost_Noah2
-[2019.09.16-19.20.39:631][105]Cmd: TRANSACTION UNDO
-[2019.09.16-19.20.39:631][105]LogEditorTransaction: Undo Edit Properties
-[2019.09.16-19.20.47:733][909]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.21.11:637][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
-[2019.09.16-19.21.33:661][882]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2019.09.16-19.21.43:735][974]LogSlate: Took 0.012157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.09.16-19.21.46:723][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
-[2019.09.16-19.21.47:172][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
-[2019.09.16-19.21.53:905][ 36]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.21.54:428][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2019.09.16-19.22.06:793][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2019.09.16-19.22.33:857][296]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.35:970][506]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.36:941][597]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.38:195][718]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.45:374][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.22.47:821][714]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.50:543][980]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.53:787][312]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.22.54:249][357]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.23.09:924][ 45]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.23.12:767][325]LogActorFactory: Actor Factory created tree_joel
-[2019.09.16-19.24.11:592][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_joel6)
-[2019.09.16-19.24.18:398][598]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.24.23:557][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_joel6)
-[2019.09.16-19.24.28:205][645]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.24.34:049][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_joel3)
-[2019.09.16-19.24.41:655][ 51]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.24.44:427][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_joel7)
-[2019.09.16-19.24.49:055][836]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.24.55:506][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_joel5)
-[2019.09.16-19.24.58:001][791]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.25.39:544][921]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2019.09.16-19.25.43:843][369]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2019.09.16-19.25.52:949][374]LogMaterial: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
-[2019.09.16-19.26.15:462][948]Cmd: TRANSACTION UNDO
-[2019.09.16-19.26.15:462][948]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.27.53:906][484]Cmd: TRANSACTION UNDO
-[2019.09.16-19.27.53:906][484]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.27.54:665][563]Cmd: TRANSACTION UNDO
-[2019.09.16-19.27.54:665][563]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.27.55:100][612]Cmd: TRANSACTION UNDO
-[2019.09.16-19.27.55:100][612]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.27.55:411][646]Cmd: TRANSACTION UNDO
-[2019.09.16-19.27.55:411][646]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.27.56:012][715]Cmd: TRANSACTION UNDO
-[2019.09.16-19.27.56:012][715]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.28.32:549][ 36]Cmd: TRANSACTION UNDO
-[2019.09.16-19.28.32:549][ 36]LogEditorTransaction: Undo Foliage Editing
-[2019.09.16-19.28.38:422][713]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
-[2019.09.16-19.28.39:355][811]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.29.20:581][157]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.09.16-19.29.21:030][194]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2019.09.16-19.29.47:911][538]LogSavePackage: Save=278.38ms
-[2019.09.16-19.29.47:911][538]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_Auto25D2604814C5F068CD72675B9046395E4.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap'
-[2019.09.16-19.29.47:915][538]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap
-[2019.09.16-19.29.47:918][538]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.307
-[2019.09.16-19.29.47:918][538]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
-[2019.09.16-20.57.45:427][ 38]LogSavePackage: Save=279.90ms
-[2019.09.16-20.57.45:427][ 38]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMapFE39567D44649CED6F0B1E8FAE4A63B8.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2019.09.16-20.57.45:433][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2019.09.16-20.57.45:553][ 38]LogSavePackage: Save=29.77ms
-[2019.09.16-20.57.45:553][ 38]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Saved/StartupMap_BuiltData6A0A8F554F1A0D8BD0EFC8B767BFADCD.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2019.09.16-20.57.45:557][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2019.09.16-20.57.47:175][180]Cmd: QUIT_EDITOR
-[2019.09.16-20.57.47:232][180]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.09.16-20.57.47:281][180]LogExit: Preparing to exit.
-[2019.09.16-20.57.48:022][180]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/' was aborted.
-[2019.09.16-20.57.48:199][180]LogExit: Editor shut down
-[2019.09.16-20.57.48:257][180]LogExit: Transaction tracking system shut down
-[2019.09.16-20.57.48:485][180]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.09.16-20.57.48:485][180]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/Content/' was aborted.
-[2019.09.16-20.57.48:485][180]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2019.09.16-20.57.48:485][180]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.09.16-20.57.48:485][180]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.09.16-20.57.48:869][180]LogExit: Object subsystem successfully closed.
-[2019.09.16-20.57.48:952][180]LogD3D11RHI: Shutdown
-[2019.09.16-20.57.48:952][180]LogD3D11RHI: CleanupD3DDevice
-[2019.09.16-20.57.49:083][180]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.09.16-20.57.49:141][180]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
-[2019.09.16-20.57.49:141][180]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
-[2019.09.16-20.57.49:141][180]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
-[2019.09.16-20.57.49:142][180]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2019.09.16-20.57.49:142][180]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2019.09.16-20.57.49:142][180]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2019.09.16-20.57.49:142][180]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2019.09.16-20.57.49:152][180]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/Collections/' was aborted.
-[2019.09.16-20.57.49:152][180]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/Content/Developers/yates290/Collections/' was aborted.
-[2019.09.16-20.57.49:152][180]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/Saved/Collections/' was aborted.
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2019.09.16-20.57.49:152][180]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module Media (477)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2019.09.16-20.57.49:153][180]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2019.09.16-20.57.49:154][180]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2019.09.16-20.57.49:535][180]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2019.09.16-20.57.49:536][180]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2019.09.16-20.57.49:537][180]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2019.09.16-20.57.49:593][180]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2019.09.16-20.57.49:594][180]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2019.09.16-20.57.49:594][180]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2019.09.16-20.57.49:594][180]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2019.09.16-20.57.49:595][180]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2019.09.16-20.57.49:596][180]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2019.09.16-20.57.49:620][180]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2019.09.16-20.57.49:621][180]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2019.09.16-20.57.49:622][180]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2019.09.16-20.57.49:622][180]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.09.16-20.57.49:624][180]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.09.16-20.57.49:624][180]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2019.09.16-20.57.49:624][180]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2019.09.16-20.57.49:625][180]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2019.09.16-20.57.49:726][180]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2019.09.16-20.57.49:827][180]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2019.09.16-20.57.49:831][180]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2019.09.16-20.57.49:831][180]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2019.09.16-20.57.49:832][180]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2019.09.16-20.57.49:833][180]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2019.09.16-20.57.49:833][180]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2019.09.16-20.57.49:833][180]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2019.09.16-20.57.49:833][180]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2019.09.16-20.57.49:833][180]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module Core (168)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2019.09.16-20.57.49:839][180]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2019.09.16-20.57.49:848][180]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2019.09.16-20.57.49:919][180]LogDerivedDataCache: Shutdown
-[2019.09.16-20.57.49:919][180]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2019.09.16-20.57.49:920][180]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2019.09.16-20.57.49:921][180]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.09.16-20.57.49:922][180]LogOnline: Display: Unloading online subsystem: NULL
-[2019.09.16-20.57.49:922][180]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.09.16-20.57.49:923][180]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.09.16-20.57.49:923][180]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.09.16-20.57.49:923][180]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1951E781-41AD-4401-24A3-9F9C592C5207%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=89a99b544d53304157df41ba731bf49c%7C%7C1924da02-10e0-41d5-93a8-c0b7d8bbb82f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.09.16-20.57.49:935][180]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.09.16-20.57.49:938][180]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.09.16-20.57.49:947][180]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.09.16-20.57.49:951][180]LogExit: Exiting.
-[2019.09.16-20.57.49:972][180]Log file closed, 09/16/19 16:57:49
+[2019.09.18-19.17.06:414][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.18-19.17.06:414][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.18-19.17.06:451][  0]LogInit: Computer: MT330D10
+[2019.09.18-19.17.06:451][  0]LogInit: User: yates290
+[2019.09.18-19.17.06:451][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.18-19.17.06:451][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.09.18-19.17.06:451][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.09.18-19.17.06:452][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.18-19.17.06:452][  0]LogMemory: Process Physical Memory: 286.16 MB used, 286.16 MB peak
+[2019.09.18-19.17.06:452][  0]LogMemory: Process Virtual Memory: 286.11 MB used, 286.11 MB peak
+[2019.09.18-19.17.06:452][  0]LogMemory: Physical Memory: 9092.61 MB used,  7213.70 MB free, 16306.31 MB total
+[2019.09.18-19.17.06:452][  0]LogMemory: Virtual Memory: 699.44 MB used,  7213.70 MB free, 134217728.00 MB total
+[2019.09.18-19.17.07:598][  0]LogInit: Using OS detected language (en-US).
+[2019.09.18-19.17.07:598][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.18-19.17.07:608][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.18-19.17.09:094][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.18-19.17.09:186][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.09.18-19.17.09:186][  0]LogD3D11RHI:       8088/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.18-19.17.09:190][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.18-19.17.09:190][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.18-19.17.09:190][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.18-19.17.09:232][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.18-19.17.09:232][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.18-19.17.09:232][  0]LogWindows: EnumDisplayDevices:
+[2019.09.18-19.17.09:232][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.09.18-19.17.09:233][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.09.18-19.17.09:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.18-19.17.09:234][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.18-19.17.09:235][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.09.18-19.17.09:235][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.09.18-19.17.09:235][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2019.09.18-19.17.09:235][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2019.09.18-19.17.09:235][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.09.18-19.17.09:310][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.18-19.17.09:333][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.09.18-19.17.09:381][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Intermediate/Shaders/WorkingDirectory/72772/).
+[2019.09.18-19.17.09:381][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yates.290/AppData/Local/Temp/13/UnrealShaderWorkingDir/789C758A4CB67BA401D3D7AEE62B8756/'.
+[2019.09.18-19.17.09:381][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.18-19.17.11:672][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.18-19.17.11:942][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.18-19.17.12:210][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.18-19.17.12:474][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.18-19.17.12:739][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.18-19.17.12:996][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.18-19.17.13:257][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.18-19.17.13:528][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.18-19.17.13:781][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.18-19.17.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.18-19.17.14:312][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.09.18-19.17.14:593][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.09.18-19.17.14:857][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.09.18-19.17.15:121][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.09.18-19.17.15:385][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.09.18-19.17.15:923][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.09.18-19.17.15:923][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.09.18-19.17.16:172][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.18-19.17.16:606][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.18-19.17.16:756][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.18-19.17.17:015][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.18-19.17.17:282][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.18-19.17.17:556][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.18-19.17.17:847][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.18-19.17.17:847][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.18-19.17.20:934][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: Loaded boot cache 0.26s 106MB C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.18-19.17.21:191][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.18-19.17.21:210][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.18-19.17.21:224][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yates.290/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.18-19.17.21:237][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.18-19.17.21:238][  0]LogSlate: Using Freetype 2.6.0
+[2019.09.18-19.17.21:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.18-19.17.21:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.18-19.17.21:797][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2019.09.18-19.17.22:155][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.18-19.17.22:472][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.09.18-19.17.23:961][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.18-19.17.24:223][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.18-19.17.24:223][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.18-19.17.24:223][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.18-19.17.24:223][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.09.18-19.17.24:223][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.09.18-19.17.25:059][  0]LogNetVersion: DemoCornholeJoel , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1296306758)
+[2019.09.18-19.17.25:755][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.088688 seconds
+[2019.09.18-19.17.25:764][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2019.09.18-19.17.25:764][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2019.09.18-19.17.25:764][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.18-19.17.26:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.09.18-19.17.40:423][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.18-19.17.40:623][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.18-19.17.44:074][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.09.18-19.17.46:310][  0]SourceControl: Source control is disabled
+[2019.09.18-19.17.46:310][  0]SourceControl: Source control is disabled
+[2019.09.18-19.17.46:603][  0]SourceControl: Source control is disabled
+[2019.09.18-19.17.46:897][  0]SourceControl: Source control is disabled
+[2019.09.18-19.17.50:475][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.18-19.17.51:921][  0]LogOcInput: OculusInput pre-init called
+[2019.09.18-19.17.53:246][  0]LogEngine: Initializing Engine...
+[2019.09.18-19.17.53:247][  0]LogHMD: Oculus plugin initialized. Version: 4.17.2-3658906+++UE4+Release-4.17, OVRPlugin: 1.15.0
+[2019.09.18-19.17.53:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.18-19.17.53:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.18-19.17.54:416][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.18-19.17.54:484][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.18-19.17.54:561][  0]LogInit: FAudioDevice initialized.
+[2019.09.18-19.17.54:797][  0]LogDerivedDataCache: Saved boot cache 0.24s 106MB C:/Users/yates.290/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.09.18-19.17.54:825][  0]LogInit: Texture streaming: Enabled
+[2019.09.18-19.17.55:578][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.18-19.17.56:909][  0]LogInit: Transaction tracking system initialized
+[2019.09.18-19.17.58:881][  0]BlueprintLog: New page: Editor Load
+[2019.09.18-19.18.04:337][  0]LocalizationService: Localization service is disabled
+[2019.09.18-19.18.08:399][  0]LogConsoleResponse: Display: 
+[2019.09.18-19.18.09:099][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.18-19.18.09:099][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.18-19.18.09:100][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.18-19.18.09:961][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/' took 0.03s
+[2019.09.18-19.18.15:200][  0]SourceControl: Source control is disabled
+[2019.09.18-19.18.15:200][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.18-19.18.15:201][  0]LightingResults: New page: Lighting Build
+[2019.09.18-19.18.15:446][  0]MapCheck: New page: Map Check
+[2019.09.18-19.18.15:446][  0]LightingResults: New page: Lighting Build
+[2019.09.18-19.18.17:127][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
+[2019.09.18-19.18.17:136][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Bench/ParkBenchJoel.uasset.
+[2019.09.18-19.18.17:136][  0]LoadErrors: Error: /Game/Cornhole/Bench/ParkBenchJoel : Can't find file for asset. /Game/Cornhole/Bench/None
+[2019.09.18-19.18.17:153][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
+[2019.09.18-19.18.17:153][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Bench/ParkBenchJoel.uasset.
+[2019.09.18-19.18.17:154][  0]LoadErrors: Error: /Game/Cornhole/Bench/ParkBenchJoel : Can't find file for asset. /Game/Cornhole/Bench/None
+[2019.09.18-19.18.17:782][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
+[2019.09.18-19.18.17:782][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
+[2019.09.18-19.18.17:783][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading NULL.
+[2019.09.18-19.18.17:783][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
+[2019.09.18-19.18.17:783][  0]LogLinker: Warning: Can't find file '/Game/Cornhole/Bench/None'
+[2019.09.18-19.18.17:783][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
+[2019.09.18-19.18.17:784][  0]LogLinker: Warning: Can't find file for asset '/Game/Cornhole/Bench/None' while loading NULL.
+[2019.09.18-19.18.17:784][  0]LoadErrors: Failed to load /Game/Cornhole/Bench/None.Material_0 Referenced by ParkBenchJoel
+[2019.09.18-19.18.18:866][  0]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2019.09.18-19.18.20:397][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.09.18-19.18.23:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.18-19.18.23:775][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.18-19.18.24:020][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 244.42ms to complete.
+[2019.09.18-19.18.24:020][  0]LogFileHelpers: Loading map 'StartupMap' took 8.820
+[2019.09.18-19.18.25:197][  0]LogCollectionManager: Loaded 0 collections in 0.010484 seconds
+[2019.09.18-19.18.25:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Collections/' took 0.01s
+[2019.09.18-19.18.25:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Developers/yates290/Collections/' took 0.01s
+[2019.09.18-19.18.25:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Collections/' took 0.01s
+[2019.09.18-19.18.25:952][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.18-19.18.25:987][  0]LogContentBrowser: Native class hierarchy populated in 0.0340 seconds. Added 2386 classes and 500 folders.
+[2019.09.18-19.18.26:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.09.18-19.18.27:505][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2019.09.18-19.18.27:857][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2019.09.18-19.18.28:300][  0]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.18-19.18.28:307][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.18-19.18.28:438][  0]LogSlate: Took 0.021618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.18-19.18.29:046][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:1).
+[2019.09.18-19.18.30:995][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.09.18-19.18.30:995][  0]LogLoad: (Engine Initialization) Total time: 93.45 seconds
+[2019.09.18-19.18.30:995][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.18-19.18.30:995][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.09.18-19.18.31:036][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.18-19.18.31:056][  0]LogOcInput: OculusInput is initialized
+[2019.09.18-19.18.31:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.18-19.18.32:013][  4]LogAssetRegistry: Asset discovery search completed in 70.2379 seconds
+[2019.09.18-19.18.32:017][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.18-19.18.32:017][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2019.09.18-19.19.16:508][933]LogSlate: Took 0.014638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.18-19.19.16:567][933]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/BeanbagJoel.obj)
+[2019.09.18-19.19.16:730][933]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/BeanbagJoel.obj
+[2019.09.18-19.19.16:751][933]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-19.19.20:118][933]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/BeanbagJoel.obj
+[2019.09.18-19.19.20:133][933]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-19.19.20:155][933]LogLinker: Can't find file '/Game/Cornhole/Beanbags/Material'
+[2019.09.18-19.19.20:155][933]LogLinker: Can't find file '/Game/Cornhole/Beanbags/Material'
+[2019.09.18-19.19.20:193][933]LogLinker: Can't find file '/Game/Cornhole/Beanbags/RedClothJoel'
+[2019.09.18-19.19.20:193][933]LogLinker: Can't find file '/Game/Cornhole/Beanbags/RedClothJoel'
+[2019.09.18-19.19.20:641][933]LogTexture: Display: Building textures: RedClothJoel (AutoDXT, 3840X2160)
+[2019.09.18-19.19.32:450][933]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2019.09.18-19.19.32:469][933]LogFbx: Warning: Triangulating static mesh default
+[2019.09.18-19.19.32:904][933]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.18-19.19.32:914][933]LogStaticMesh: Building static mesh BeanbagJoel...
+[2019.09.18-19.19.33:066][933]LogStaticMesh: Built static mesh [0.15s] /Game/Cornhole/Beanbags/BeanbagJoel.BeanbagJoel
+[2019.09.18-19.19.40:909][540]LogActorFactory: Actor Factory created BeanbagJoel
+[2019.09.18-19.19.46:292][ 93]LogActorFactory: Actor Factory created BeanbagJoel
+[2019.09.18-19.20.12:371][340]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-19.20.12:849][377]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-19.20.13:516][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.20.33:622][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.20.55:696][599]LogSlate: Took 0.015036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.18-19.21.09:695][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.23.10:956][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.24.15:029][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.25.01:595][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.25.02:579][282]Cmd: EDIT COPY
+[2019.09.18-19.25.03:038][306]Cmd: EDIT PASTE
+[2019.09.18-19.25.06:039][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel2)
+[2019.09.18-19.25.08:861][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.25.12:876][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel2)
+[2019.09.18-19.25.15:588][696]Cmd: EDIT COPY
+[2019.09.18-19.25.15:856][727]Cmd: EDIT PASTE
+[2019.09.18-19.25.17:504][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel2)
+[2019.09.18-19.25.19:696][149]Cmd: EDIT COPY
+[2019.09.18-19.25.20:001][182]Cmd: EDIT PASTE
+[2019.09.18-19.25.26:129][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.25.30:485][349]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-19.25.31:426][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-19.25.32:017][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel4)
+[2019.09.18-19.25.32:951][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-19.25.33:327][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (BeanbagJoel4)
+[2019.09.18-19.25.35:099][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-19.25.37:618][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-19.25.41:316][503]Cmd: EDIT COPY
+[2019.09.18-19.25.41:597][536]Cmd: EDIT PASTE
+[2019.09.18-19.26.19:244][989]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Materials/Outdoors/BlueClothJoel.jpg)
+[2019.09.18-19.26.19:661][989]LogTexture: Display: Building textures: BlueClothJoel (AutoDXT, 3840X2160)
+[2019.09.18-19.26.46:844][652]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.26.59:581][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/RedCloth" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset" SILENT=true
+[2019.09.18-19.26.59:713][808]LogSavePackage: Save=103.08ms
+[2019.09.18-19.26.59:713][808]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/RedCloth566F36074FBB8AFF32E0FD8F9FDACC7D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset'
+[2019.09.18-19.26.59:745][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset
+[2019.09.18-19.27.05:221][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.27.08:543][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel)
+[2019.09.18-19.27.29:830][659]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2019.09.18-19.27.29:841][659]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.27.30:273][659]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.27.30:301][659]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.27.30:358][659]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-19.27.30:400][659]LogSlate: Took 0.015791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.18-19.27.32:617][735]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.27.32:617][735]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.27.32:617][735]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.27.32:617][735]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.28.24:335][217]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.18-19.28.33:705][244]LogSavePackage: Save=321.36ms
+[2019.09.18-19.28.33:706][244]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_Auto1058FFD76428493770DB1ED8A89652951.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
+[2019.09.18-19.28.33:709][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap
+[2019.09.18-19.28.33:754][244]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.407
+[2019.09.18-19.28.33:754][244]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.407
+[2019.09.18-19.28.33:757][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Beanbags/BeanbagJoel] ([1] browsable assets)...
+[2019.09.18-19.28.33:776][244]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Cornhole/Beanbags/BeanbagJoel.BeanbagJoel]
+[2019.09.18-19.28.33:776][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Beanbags/BeanbagJoel]
+[2019.09.18-19.28.33:795][244]LogSavePackage: Save=15.02ms
+[2019.09.18-19.28.33:795][244]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BeanbagJoel_Auto198DE6D5C40CD4C4C5C7D3F85FA7F1371.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BeanbagJoel_Auto1.uasset'
+[2019.09.18-19.28.33:798][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BeanbagJoel_Auto1.uasset
+[2019.09.18-19.28.33:800][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Beanbags/RedClothJoel] ([1] browsable assets)...
+[2019.09.18-19.28.33:805][244]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Beanbags/RedClothJoel.RedClothJoel]
+[2019.09.18-19.28.33:806][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Beanbags/RedClothJoel]
+[2019.09.18-19.28.33:992][244]LogSavePackage: Save=182.34ms
+[2019.09.18-19.28.33:992][244]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/RedClothJoel_Auto19A8DFD194282CA7B050E0BAF7F34D330.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/RedClothJoel_Auto1.uasset'
+[2019.09.18-19.28.33:995][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/RedClothJoel_Auto1.uasset
+[2019.09.18-19.28.33:996][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Beanbags/BlueClothJoel] ([1] browsable assets)...
+[2019.09.18-19.28.34:001][244]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Beanbags/BlueClothJoel.BlueClothJoel]
+[2019.09.18-19.28.34:001][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Beanbags/BlueClothJoel]
+[2019.09.18-19.28.34:183][244]LogSavePackage: Save=179.30ms
+[2019.09.18-19.28.34:183][244]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BlueClothJoel_Auto198C2F49A407A8882074260B13A605E5F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BlueClothJoel_Auto1.uasset'
+[2019.09.18-19.28.34:466][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BlueClothJoel_Auto1.uasset
+[2019.09.18-19.28.34:467][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Beanbags/BlueCloth] ([1] browsable assets)...
+[2019.09.18-19.28.34:480][244]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Beanbags/BlueCloth.BlueCloth]
+[2019.09.18-19.28.34:480][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Beanbags/BlueCloth]
+[2019.09.18-19.28.34:505][244]LogSavePackage: Save=22.49ms
+[2019.09.18-19.28.34:505][244]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BlueCloth_Auto1FEB6A62D463AE8FEAD06648A32F78E44.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BlueCloth_Auto1.uasset'
+[2019.09.18-19.28.34:509][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Beanbags/BlueCloth_Auto1.uasset
+[2019.09.18-19.28.34:509][244]LogFileHelpers: Auto-saving content packages took 0.754
+[2019.09.18-19.29.50:221][770]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.29.50:246][770]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.29.52:546][ 13]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.29.52:546][ 13]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.29.52:546][ 13]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.29.52:546][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.29.54:745][269]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.29.56:003][405]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.29.56:003][405]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.29.56:003][405]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.29.56:003][405]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.29.56:597][476]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.29.58:008][623]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.29.58:008][623]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.29.58:009][623]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.29.58:009][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.30.02:130][117]LogMaterialEditor: Saving and Compiling material BlueCloth
+[2019.09.18-19.30.03:100][117]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.30.03:187][117]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.30.03:230][117]LogMaterial: Missing cached shader map for material BlueCloth, compiling. 
+[2019.09.18-19.30.03:290][117]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlueCloth, compiling. 
+[2019.09.18-19.30.04:189][117]TextureStreamingBuild: Display: Compiling optional shaders took 0.927 seconds.
+[2019.09.18-19.30.06:517][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/BlueCloth" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueCloth.uasset" SILENT=true
+[2019.09.18-19.30.06:539][117]LogSavePackage: Save=17.85ms
+[2019.09.18-19.30.06:539][117]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BlueCloth1C196C2140FF02D713E742A10DEA602D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueCloth.uasset'
+[2019.09.18-19.30.06:545][117]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueCloth.uasset
+[2019.09.18-19.30.06:556][117]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.30.06:556][117]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.30.06:556][117]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.18-19.30.06:556][117]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.30.19:270][484]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.19:343][484]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.19:359][484]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.19:400][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-19.30.20:650][581]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.30.20:650][581]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.30.20:650][581]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.30.20:650][581]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.30.26:159][224]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.26:172][224]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.27:420][354]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.30.27:420][354]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.30.27:420][354]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.30.27:420][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.30.29:569][611]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.30:811][739]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.30.30:811][739]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.30.30:811][739]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-19.30.30:811][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.30.37:974][592]LogMaterialEditor: Saving and Compiling material RedCloth
+[2019.09.18-19.30.38:943][592]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.39:018][592]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.39:057][592]LogMaterial: Missing cached shader map for material RedCloth, compiling. 
+[2019.09.18-19.30.39:113][592]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RedCloth, compiling. 
+[2019.09.18-19.30.40:000][592]TextureStreamingBuild: Display: Compiling optional shaders took 0.894 seconds.
+[2019.09.18-19.30.42:224][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/RedCloth" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset" SILENT=true
+[2019.09.18-19.30.42:256][592]LogSavePackage: Save=17.30ms
+[2019.09.18-19.30.42:257][592]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/RedCloth9C56576B4705782248985D98E536BA22.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset'
+[2019.09.18-19.30.42:263][592]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedCloth.uasset
+[2019.09.18-19.30.42:276][592]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-19.30.42:276][592]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-19.30.42:276][592]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.18-19.30.42:276][592]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-19.31.49:538][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.19.27:963][751]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj)
+[2019.09.18-20.19.27:975][751]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj
+[2019.09.18-20.19.27:978][751]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-20.19.29:642][751]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj
+[2019.09.18-20.19.29:645][751]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-20.19.29:646][751]LogLinker: Can't find file '/Game/Cornhole/Boards/Material'
+[2019.09.18-20.19.29:647][751]LogLinker: Can't find file '/Game/Cornhole/Boards/Material'
+[2019.09.18-20.19.29:653][751]LogLinker: Can't find file '/Game/Cornhole/Boards/WhiteCornholeBoardJoel'
+[2019.09.18-20.19.29:653][751]LogLinker: Can't find file '/Game/Cornhole/Boards/WhiteCornholeBoardJoel'
+[2019.09.18-20.19.29:937][751]LogTexture: Display: Building textures: WhiteCornholeBoardJoel (AutoDXT, 3840X2160)
+[2019.09.18-20.19.36:195][751]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2019.09.18-20.19.36:218][751]LogLinker: Can't find file '/Game/Cornhole/Boards/None'
+[2019.09.18-20.19.36:218][751]LogLinker: Can't find file '/Game/Cornhole/Boards/None'
+[2019.09.18-20.19.36:222][751]LogLinker: Can't find file '/Game/Cornhole/Boards/DarStandsJoel'
+[2019.09.18-20.19.36:222][751]LogLinker: Can't find file '/Game/Cornhole/Boards/DarStandsJoel'
+[2019.09.18-20.19.36:579][751]LogTexture: Display: Building textures: DarStandsJoel (AutoDXT, 3840X2160)
+[2019.09.18-20.19.46:542][751]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.19.46:563][751]LogFbx: Warning: Triangulating static mesh default
+[2019.09.18-20.19.46:586][751]LogStaticMesh: Building static mesh CornholeBoardJoel...
+[2019.09.18-20.19.46:593][751]LogStaticMesh: Built static mesh [0.01s] /Game/Cornhole/Boards/CornholeBoardJoel.CornholeBoardJoel
+[2019.09.18-20.19.46:615][751]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.09.18-20.19.49:838][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.046
+[2019.09.18-20.19.49:842][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/CornholeBoardJoel] ([1] browsable assets)...
+[2019.09.18-20.19.49:856][968]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Cornhole/Boards/CornholeBoardJoel.CornholeBoardJoel]
+[2019.09.18-20.19.49:856][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/CornholeBoardJoel]
+[2019.09.18-20.19.49:879][968]LogSavePackage: Save=18.86ms
+[2019.09.18-20.19.49:879][968]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/CornholeBoardJoel_Auto2D6020FB846CD36F27D0F5BBD47D001BA.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/CornholeBoardJoel_Auto2.uasset'
+[2019.09.18-20.19.49:883][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/CornholeBoardJoel_Auto2.uasset
+[2019.09.18-20.19.49:884][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/Material] ([1] browsable assets)...
+[2019.09.18-20.19.49:896][968]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/Material.Material]
+[2019.09.18-20.19.49:897][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/Material]
+[2019.09.18-20.19.49:929][968]LogSavePackage: Save=29.24ms
+[2019.09.18-20.19.49:929][968]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Material_Auto288C1EAD947CDF14328639DB3AC038A0C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/Material_Auto2.uasset'
+[2019.09.18-20.19.49:933][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/Material_Auto2.uasset
+[2019.09.18-20.19.49:935][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/WhiteCornholeBoardJoel] ([1] browsable assets)...
+[2019.09.18-20.19.49:942][968]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Boards/WhiteCornholeBoardJoel.WhiteCornholeBoardJoel]
+[2019.09.18-20.19.49:942][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/WhiteCornholeBoardJoel]
+[2019.09.18-20.19.50:111][968]LogSavePackage: Save=165.35ms
+[2019.09.18-20.19.50:112][968]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/WhiteCornholeBoardJoel_Auto2FC9E604C4B0E747FE854D6A2EAFE7FEC.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/WhiteCornholeBoardJoel_Auto2.uasset'
+[2019.09.18-20.19.50:115][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/WhiteCornholeBoardJoel_Auto2.uasset
+[2019.09.18-20.19.50:116][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/None] ([1] browsable assets)...
+[2019.09.18-20.19.50:126][968]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/None.Material_0]
+[2019.09.18-20.19.50:126][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/None]
+[2019.09.18-20.19.50:149][968]LogSavePackage: Save=19.36ms
+[2019.09.18-20.19.50:149][968]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/None_Auto268F225B648878A419C6B28B8DB15F199.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto2.uasset'
+[2019.09.18-20.19.50:152][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto2.uasset
+[2019.09.18-20.19.50:154][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/DarStandsJoel] ([1] browsable assets)...
+[2019.09.18-20.19.50:162][968]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Boards/DarStandsJoel.DarStandsJoel]
+[2019.09.18-20.19.50:162][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/DarStandsJoel]
+[2019.09.18-20.19.50:448][968]LogSavePackage: Save=282.98ms
+[2019.09.18-20.19.50:448][968]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/DarStandsJoel_Auto20C1BCD8949A5FB7148798F87436EBFD7.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/DarStandsJoel_Auto2.uasset'
+[2019.09.18-20.19.50:451][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/DarStandsJoel_Auto2.uasset
+[2019.09.18-20.19.50:451][968]LogFileHelpers: Auto-saving content packages took 0.611
+[2019.09.18-20.19.54:624][383]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.19.57:991][708]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.19.58:544][752]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.19.59:598][859]Cmd: DELETE
+[2019.09.18-20.19.59:598][859]Cmd: ACTOR DELETE
+[2019.09.18-20.19.59:613][859]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.18-20.19.59:623][859]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2019.09.18-20.20.06:402][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
+[2019.09.18-20.20.25:350][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.20.35:280][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
+[2019.09.18-20.20.38:863][803]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.18-20.20.50:796][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.21.14:511][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
+[2019.09.18-20.21.15:980][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.21.33:167][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
+[2019.09.18-20.21.40:441][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.21.54:270][ 34]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-20.21.55:411][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lamppost_Noah2)
+[2019.09.18-20.21.59:580][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ParkBenchJoel)
+[2019.09.18-20.22.17:033][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-20.23.38:613][553]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-20.25.12:768][196]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.25.13:755][294]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.26.08:560][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.26.50:406][434]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-20.28.16:247][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.30.00:649][934]LogSavePackage: Save=289.66ms
+[2019.09.18-20.30.00:649][934]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_Auto36B7BBC6A4DAF377220A594BEDDCCA624.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto3.umap'
+[2019.09.18-20.30.00:652][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto3.umap
+[2019.09.18-20.30.00:656][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.327
+[2019.09.18-20.30.00:656][934]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.327
+[2019.09.18-20.30.00:659][934]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Lamppost/lamppost_Noah2] ([1] browsable assets)...
+[2019.09.18-20.30.00:675][934]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Cornhole/Lamppost/lamppost_Noah2.lamppost_Noah2]
+[2019.09.18-20.30.00:676][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Lamppost/lamppost_Noah2]
+[2019.09.18-20.30.00:705][934]LogSavePackage: Save=14.79ms
+[2019.09.18-20.30.00:705][934]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/lamppost_Noah2_Auto3F2ECF5D443F759C3E903B2B8EC8C5953.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Lamppost/lamppost_Noah2_Auto3.uasset'
+[2019.09.18-20.30.00:708][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Lamppost/lamppost_Noah2_Auto3.uasset
+[2019.09.18-20.30.00:708][934]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.09.18-20.30.52:958][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.32.38:479][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.32.40:054][346]Cmd: EDIT COPY
+[2019.09.18-20.32.41:285][489]Cmd: EDIT PASTE
+[2019.09.18-20.33.07:017][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.40.01:640][377]LogSavePackage: Save=305.73ms
+[2019.09.18-20.40.01:640][377]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_Auto44192472F4E779058600C8D91503EB42F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto4.umap'
+[2019.09.18-20.40.01:644][377]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto4.umap
+[2019.09.18-20.40.01:646][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.348
+[2019.09.18-20.40.01:646][377]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.348
+[2019.09.18-20.58.36:911][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel2)
+[2019.09.18-20.58.37:056][656]Cmd: DELETE
+[2019.09.18-20.58.37:056][656]Cmd: ACTOR DELETE
+[2019.09.18-20.58.37:057][656]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.18-20.58.37:066][656]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2019.09.18-20.58.38:338][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.58.38:414][805]Cmd: DELETE
+[2019.09.18-20.58.38:414][805]Cmd: ACTOR DELETE
+[2019.09.18-20.58.38:415][805]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.18-20.58.38:425][805]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2019.09.18-20.58.43:885][116]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.58.43:890][116]LogMaterial: Warning: Failed to compile Material /Game/Cornhole/Boards/None.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2019.09.18-20.58.43:890][116]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.09.18-20.58.53:020][495]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj)
+[2019.09.18-20.58.53:029][495]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj
+[2019.09.18-20.58.53:032][495]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-20.58.55:854][495]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Cornhole/CornholeBoardJoel.obj
+[2019.09.18-20.58.55:857][495]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-20.58.55:859][495]LogLinker: Can't find file '/Game/Cornhole/Boards/OSUImage'
+[2019.09.18-20.58.55:859][495]LogLinker: Can't find file '/Game/Cornhole/Boards/OSUImage'
+[2019.09.18-20.58.55:920][495]LogTexture: Display: Building textures: OSUImage (BGRA8, 840X867)
+[2019.09.18-20.58.56:027][495]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.58.56:426][495]LogTexture: Display: Building textures: WhiteCornholeBoardJoel (AutoDXT, 3840X2160)
+[2019.09.18-20.59.03:473][495]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2019.09.18-20.59.03:496][495]LogLinker: Can't find file '/Game/Cornhole/Boards/None_DarStandsJoel_jpg'
+[2019.09.18-20.59.03:496][495]LogLinker: Can't find file '/Game/Cornhole/Boards/None_DarStandsJoel_jpg'
+[2019.09.18-20.59.03:904][495]LogTexture: Display: Building textures: DarStandsJoel (AutoDXT, 3840X2160)
+[2019.09.18-20.59.13:614][495]LogMaterial: Missing cached shader map for material None_DarStandsJoel_jpg, compiling. 
+[2019.09.18-20.59.13:631][495]LogFbx: Warning: Triangulating static mesh default
+[2019.09.18-20.59.13:649][495]LogStaticMesh: Building static mesh CornholeBoardJoel...
+[2019.09.18-20.59.13:663][495]LogStaticMesh: Built static mesh [0.01s] /Game/Cornhole/Boards/CornholeBoardJoel.CornholeBoardJoel
+[2019.09.18-20.59.13:675][495]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.09.18-20.59.17:155][787]LogSavePackage: Save=272.89ms
+[2019.09.18-20.59.17:155][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_Auto5EA968E534F91A036313532BFE361C4AD.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto5.umap'
+[2019.09.18-20.59.17:158][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto5.umap
+[2019.09.18-20.59.17:161][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.308
+[2019.09.18-20.59.17:161][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2019.09.18-20.59.17:164][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/DarStandsJoel] ([1] browsable assets)...
+[2019.09.18-20.59.17:171][787]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Boards/DarStandsJoel.DarStandsJoel]
+[2019.09.18-20.59.17:171][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/DarStandsJoel]
+[2019.09.18-20.59.17:347][787]LogSavePackage: Save=173.05ms
+[2019.09.18-20.59.17:347][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/DarStandsJoel_Auto5CDB6032647EA255EDE6051AB9AE47BA0.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/DarStandsJoel_Auto5.uasset'
+[2019.09.18-20.59.17:350][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/DarStandsJoel_Auto5.uasset
+[2019.09.18-20.59.17:352][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/None_DarStandsJoel_jpg] ([1] browsable assets)...
+[2019.09.18-20.59.17:368][787]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/None_DarStandsJoel_jpg.None_DarStandsJoel_jpg]
+[2019.09.18-20.59.17:368][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/None_DarStandsJoel_jpg]
+[2019.09.18-20.59.17:390][787]LogSavePackage: Save=17.50ms
+[2019.09.18-20.59.17:390][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/None_DarStandsJoel_jpg_Auto56806C1B74CABCBD3DD7A49A04DD58390.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_DarStandsJoel_jpg_Auto5.uasset'
+[2019.09.18-20.59.17:393][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_DarStandsJoel_jpg_Auto5.uasset
+[2019.09.18-20.59.17:395][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/WhiteCornholeBoardJoel] ([1] browsable assets)...
+[2019.09.18-20.59.17:401][787]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Boards/WhiteCornholeBoardJoel.WhiteCornholeBoardJoel]
+[2019.09.18-20.59.17:401][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/WhiteCornholeBoardJoel]
+[2019.09.18-20.59.17:618][787]LogSavePackage: Save=213.10ms
+[2019.09.18-20.59.17:618][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/WhiteCornholeBoardJoel_Auto5C0A7FD3B463D274E92E8E786AB9EAC90.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/WhiteCornholeBoardJoel_Auto5.uasset'
+[2019.09.18-20.59.17:621][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/WhiteCornholeBoardJoel_Auto5.uasset
+[2019.09.18-20.59.17:623][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/OSUImage] ([1] browsable assets)...
+[2019.09.18-20.59.17:634][787]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Cornhole/Boards/OSUImage.OSUImage]
+[2019.09.18-20.59.17:634][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/OSUImage]
+[2019.09.18-20.59.17:647][787]LogSavePackage: Save=10.60ms
+[2019.09.18-20.59.17:647][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/OSUImage_Auto558814FCB4DF63CA052C51FABDF0D4D71.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/OSUImage_Auto5.uasset'
+[2019.09.18-20.59.17:651][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/OSUImage_Auto5.uasset
+[2019.09.18-20.59.17:653][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/CornholeBoardJoel] ([1] browsable assets)...
+[2019.09.18-20.59.17:670][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Cornhole/Boards/CornholeBoardJoel.CornholeBoardJoel]
+[2019.09.18-20.59.17:670][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/CornholeBoardJoel]
+[2019.09.18-20.59.17:689][787]LogSavePackage: Save=15.90ms
+[2019.09.18-20.59.17:689][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/CornholeBoardJoel_Auto595685C5345D3B3D513A3149C57F5095C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/CornholeBoardJoel_Auto5.uasset'
+[2019.09.18-20.59.17:693][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/CornholeBoardJoel_Auto5.uasset
+[2019.09.18-20.59.17:694][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/None] ([1] browsable assets)...
+[2019.09.18-20.59.17:711][787]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/None.Material_0]
+[2019.09.18-20.59.17:711][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/None]
+[2019.09.18-20.59.17:731][787]LogSavePackage: Save=17.26ms
+[2019.09.18-20.59.17:731][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/None_Auto56A5CB156498390B4D7E608B3818D3FF2.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto5.uasset'
+[2019.09.18-20.59.17:735][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto5.uasset
+[2019.09.18-20.59.17:736][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/Material] ([1] browsable assets)...
+[2019.09.18-20.59.17:752][787]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/Material.Material]
+[2019.09.18-20.59.17:752][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/Material]
+[2019.09.18-20.59.17:772][787]LogSavePackage: Save=16.72ms
+[2019.09.18-20.59.17:772][787]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Material_Auto54CB57FF84F57ED5A315E2EB20F0744B8.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/Material_Auto5.uasset'
+[2019.09.18-20.59.17:775][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/Material_Auto5.uasset
+[2019.09.18-20.59.17:775][787]LogFileHelpers: Auto-saving content packages took 0.613
+[2019.09.18-20.59.20:915][134]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.59.22:678][342]LogActorFactory: Actor Factory created CornholeBoardJoel
+[2019.09.18-20.59.28:368][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-20.59.32:833][402]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.59.32:951][402]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.59.32:969][402]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-20.59.33:016][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-20.59.34:646][458]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-20.59.34:647][458]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-20.59.34:647][458]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-20.59.34:647][458]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-20.59.53:845][850]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2019.09.18-21.00.01:880][186]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.01:995][186]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.02:014][186]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.02:056][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-21.00.04:075][282]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-21.00.04:075][282]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.00.04:075][282]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-21.00.04:075][282]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.00.25:555][836]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.25:571][836]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.27:577][ 35]MaterialEditorStats: Base pass shader: 127 instructions
+[2019.09.18-21.00.27:577][ 35]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.00.27:577][ 35]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-21.00.27:577][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.00.30:963][435]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.00.31:020][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-21.00.33:572][675]MaterialEditorStats: Base pass shader: 130 instructions
+[2019.09.18-21.00.33:573][675]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.00.33:573][675]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-21.00.33:573][675]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.01.24:268][750]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.01.27:196][ 31]MaterialEditorStats: Base pass shader: 130 instructions
+[2019.09.18-21.01.27:196][ 31]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.01.27:196][ 31]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-21.01.27:196][ 31]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.01.36:275][119]LogMaterialEditor: Saving and Compiling material Material_0
+[2019.09.18-21.01.37:378][119]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.01.37:485][119]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-21.01.37:566][119]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-21.01.37:648][119]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_0, compiling. 
+[2019.09.18-21.01.39:585][119]TextureStreamingBuild: Display: Compiling optional shaders took 1.948 seconds.
+[2019.09.18-21.01.44:063][119]MaterialEditorStats: Base pass shader: 130 instructions
+[2019.09.18-21.01.44:063][119]MaterialEditorStats: Vertex shader: 125 instructions
+[2019.09.18-21.01.44:063][119]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.18-21.01.44:063][119]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.01.54:992][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-21.02.21:288][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-21.02.22:409][162]Cmd: EDIT COPY
+[2019.09.18-21.02.22:652][189]Cmd: EDIT PASTE
+[2019.09.18-21.02.57:521][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel2)
+[2019.09.18-21.03.17:456][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CornholeBoardJoel)
+[2019.09.18-21.03.32:186][635]Cmd: TRANSACTION UNDO
+[2019.09.18-21.03.32:186][635]LogEditorTransaction: Undo Move Actors
+[2019.09.18-21.03.32:246][635]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-21.03.34:736][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanbagJoel3)
+[2019.09.18-21.03.35:333][806]MaterialEditorStats: Base pass shader: 130 instructions
+[2019.09.18-21.03.35:333][806]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.03.35:333][806]MaterialEditorStats: Texture samplers: 2/16
+[2019.09.18-21.03.35:333][806]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.09.18:840][730]LogSavePackage: Save=308.73ms
+[2019.09.18-21.09.18:840][730]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_Auto615AFE588417B462B5FB6E08B922624A2.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto6.umap'
+[2019.09.18-21.09.18:844][730]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto6.umap
+[2019.09.18-21.09.18:846][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.350
+[2019.09.18-21.09.18:846][730]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.350
+[2019.09.18-21.09.18:849][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cornhole/Boards/None] ([1] browsable assets)...
+[2019.09.18-21.09.18:867][730]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Cornhole/Boards/None.Material_0]
+[2019.09.18-21.09.18:867][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cornhole/Boards/None]
+[2019.09.18-21.09.18:887][730]LogSavePackage: Save=16.51ms
+[2019.09.18-21.09.18:887][730]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/None_Auto634AE02EB4613304CE554638FFFAD6FFE.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto6.uasset'
+[2019.09.18-21.09.18:891][730]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Autosaves/Game/Cornhole/Boards/None_Auto6.uasset
+[2019.09.18-21.09.18:891][730]LogFileHelpers: Auto-saving content packages took 0.044
+[2019.09.18-21.50.53:547][520]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.18-22.02.15:681][966]LogSavePackage: Save=299.14ms
+[2019.09.18-22.02.15:681][966]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMapDB14141C430091572226DBBEB04CD7E2.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2019.09.18-22.02.15:687][966]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2019.09.18-22.02.15:762][966]LogSavePackage: Save=30.87ms
+[2019.09.18-22.02.15:763][966]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_BuiltDataF1732E044CFF3FA3F9130DA79B9F9CC6.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2019.09.18-22.02.15:766][966]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2019.09.18-22.02.34:874][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Boards/DarStandsJoel" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/DarStandsJoel.uasset" SILENT=true
+[2019.09.18-22.02.36:180][443]LogSavePackage: Save=1302.50ms
+[2019.09.18-22.02.36:180][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/DarStandsJoelA7C958DC43C48354524A5DBCA8CA1943.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/DarStandsJoel.uasset'
+[2019.09.18-22.02.36:188][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/DarStandsJoel.uasset
+[2019.09.18-22.02.36:236][443]LogSavePackage: Save=15.44ms
+[2019.09.18-22.02.36:236][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/None_DarStandsJoel_jpg4FAA773744DF2BF76E16A390B2FD5E26.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/None_DarStandsJoel_jpg.uasset'
+[2019.09.18-22.02.36:243][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/None_DarStandsJoel_jpg.uasset
+[2019.09.18-22.02.37:373][443]LogSavePackage: Save=1115.22ms
+[2019.09.18-22.02.37:373][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/WhiteCornholeBoardJoel3EB376044E40249E1FF33E8BDCBD2C2F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/WhiteCornholeBoardJoel.uasset'
+[2019.09.18-22.02.37:378][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/WhiteCornholeBoardJoel.uasset
+[2019.09.18-22.02.37:398][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Boards/Material" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/Material.uasset" SILENT=true
+[2019.09.18-22.02.37:419][443]LogSavePackage: Save=17.99ms
+[2019.09.18-22.02.37:420][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/MaterialB7F3425D4604AB39C9DDC098A801E3EF.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/Material.uasset'
+[2019.09.18-22.02.37:426][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/Material.uasset
+[2019.09.18-22.02.37:440][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Boards/OSUImage" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/OSUImage.uasset" SILENT=true
+[2019.09.18-22.02.37:492][443]LogSavePackage: Save=48.66ms
+[2019.09.18-22.02.37:492][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/OSUImageA91E450546427FA38E568D94F94BFE7D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/OSUImage.uasset'
+[2019.09.18-22.02.37:501][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/OSUImage.uasset
+[2019.09.18-22.02.39:818][443]LogSavePackage: Save=16.44ms
+[2019.09.18-22.02.39:818][443]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/CornholeBoardJoelCD6ADC4C413BA9A271A05A9D74319572.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/CornholeBoardJoel.uasset'
+[2019.09.18-22.02.39:824][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Boards/CornholeBoardJoel.uasset
+[2019.09.18-22.02.43:178][610]LogSavePackage: Save=263.66ms
+[2019.09.18-22.02.43:178][610]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMapDD0F23954B2B5E8269A08CA636E21E09.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2019.09.18-22.02.43:181][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2019.09.18-22.02.43:246][610]LogSavePackage: Save=31.29ms
+[2019.09.18-22.02.43:246][610]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/StartupMap_BuiltData6AF36F884649295BC6FE7D9B5B8E1A12.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2019.09.18-22.02.43:250][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2019.09.18-22.02.53:814][131]LogSavePackage: Save=6.85ms
+[2019.09.18-22.02.53:814][131]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/lamppost_Noah21ECC2EF44BA8C1658E11BE87BDD957CA.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Lamppost/lamppost_Noah2.uasset'
+[2019.09.18-22.02.53:820][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Lamppost/lamppost_Noah2.uasset
+[2019.09.18-22.02.53:839][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/BeanbagJoel" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BeanbagJoel.uasset" SILENT=true
+[2019.09.18-22.02.53:859][131]LogSavePackage: Save=16.12ms
+[2019.09.18-22.02.53:859][131]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BeanbagJoelD0DFEFEE44679973568A0D958759784F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BeanbagJoel.uasset'
+[2019.09.18-22.02.53:866][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BeanbagJoel.uasset
+[2019.09.18-22.02.53:877][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/RedClothJoel" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedClothJoel.uasset" SILENT=true
+[2019.09.18-22.02.55:444][131]LogSavePackage: Save=1563.49ms
+[2019.09.18-22.02.55:444][131]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/RedClothJoelFA95DF9143DB7166B6B10FA8B14C8179.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedClothJoel.uasset'
+[2019.09.18-22.02.55:449][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/RedClothJoel.uasset
+[2019.09.18-22.02.55:459][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cornhole/Beanbags/BlueClothJoel" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueClothJoel.uasset" SILENT=true
+[2019.09.18-22.02.57:107][131]LogSavePackage: Save=1644.00ms
+[2019.09.18-22.02.57:107][131]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/BlueClothJoel0535172F4567AE7AB977AB833CC75323.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueClothJoel.uasset'
+[2019.09.18-22.02.57:113][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Cornhole/Beanbags/BlueClothJoel.uasset
+[2019.09.18-22.03.04:939][256]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.09.18-22.03.05:050][256]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-22.03.05:142][256]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-22.03.05:254][256]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_0, compiling. 
+[2019.09.18-22.03.07:504][256]TextureStreamingBuild: Display: Compiling optional shaders took 2.259 seconds.
+[2019.09.18-22.03.16:936][257]Cmd: QUIT_EDITOR
+[2019.09.18-22.03.17:039][257]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.18-22.03.17:109][257]LogExit: Preparing to exit.
+[2019.09.18-22.03.18:219][257]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/' was aborted.
+[2019.09.18-22.03.18:411][257]LogExit: Editor shut down
+[2019.09.18-22.03.18:467][257]LogExit: Transaction tracking system shut down
+[2019.09.18-22.03.18:816][257]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.09.18-22.03.18:816][257]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/' was aborted.
+[2019.09.18-22.03.18:816][257]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.09.18-22.03.18:816][257]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.09.18-22.03.18:816][257]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.09.18-22.03.19:206][257]LogExit: Object subsystem successfully closed.
+[2019.09.18-22.03.19:244][257]LogD3D11RHI: Shutdown
+[2019.09.18-22.03.19:244][257]LogD3D11RHI: CleanupD3DDevice
+[2019.09.18-22.03.19:552][257]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.18-22.03.19:630][257]LogModuleManager: Shutting down and abandoning module TextureEditor (536)
+[2019.09.18-22.03.19:630][257]LogModuleManager: Shutting down and abandoning module MaterialEditor (534)
+[2019.09.18-22.03.19:630][257]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2019.09.18-22.03.19:637][257]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2019.09.18-22.03.19:637][257]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2019.09.18-22.03.19:638][257]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2019.09.18-22.03.19:649][257]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2019.09.18-22.03.19:659][257]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Collections/' was aborted.
+[2019.09.18-22.03.19:659][257]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Content/Developers/yates290/Collections/' was aborted.
+[2019.09.18-22.03.19:659][257]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeJoel/trunk/Saved/Collections/' was aborted.
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2019.09.18-22.03.19:659][257]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module Media (477)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2019.09.18-22.03.19:660][257]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2019.09.18-22.03.19:661][257]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2019.09.18-22.03.19:790][257]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2019.09.18-22.03.19:791][257]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2019.09.18-22.03.19:791][257]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2019.09.18-22.03.19:791][257]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2019.09.18-22.03.19:791][257]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2019.09.18-22.03.19:791][257]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2019.09.18-22.03.19:792][257]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2019.09.18-22.03.19:848][257]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2019.09.18-22.03.19:849][257]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2019.09.18-22.03.19:849][257]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2019.09.18-22.03.19:849][257]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2019.09.18-22.03.19:850][257]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2019.09.18-22.03.19:851][257]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2019.09.18-22.03.19:907][257]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2019.09.18-22.03.19:908][257]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.09.18-22.03.19:910][257]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.09.18-22.03.19:910][257]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2019.09.18-22.03.19:910][257]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2019.09.18-22.03.19:911][257]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2019.09.18-22.03.20:012][257]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2019.09.18-22.03.20:113][257]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2019.09.18-22.03.20:117][257]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2019.09.18-22.03.20:118][257]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module Core (168)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2019.09.18-22.03.20:125][257]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2019.09.18-22.03.20:133][257]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.09.18-22.03.20:152][257]LogDerivedDataCache: Shutdown
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.09.18-22.03.20:152][257]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.09.18-22.03.20:153][257]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.09.18-22.03.20:154][257]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.09.18-22.03.20:155][257]LogOnline: Display: Unloading online subsystem: NULL
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.09.18-22.03.20:155][257]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.09.18-22.03.20:155][257]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.18-22.03.20:155][257]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8FDF9966-4C41-D926-6D66-43976ED0E680%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=bf330a1a470ca38401a8529b245b956d%7C88d9967d8f4247029aa8d2e9897cd13c%7Ce413b1eb-509d-454e-92d3-a437e2215fea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.18-22.03.20:168][257]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.09.18-22.03.20:171][257]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.09.18-22.03.20:171][257]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.09.18-22.03.20:171][257]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.09.18-22.03.20:171][257]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.09.18-22.03.20:172][257]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.09.18-22.03.20:172][257]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.09.18-22.03.20:172][257]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.09.18-22.03.20:181][257]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.09.18-22.03.20:184][257]LogExit: Exiting.
+[2019.09.18-22.03.20:205][257]Log file closed, 09/18/19 18:03:20
